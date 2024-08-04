@@ -1,0 +1,36 @@
+.checkout {
+  margin: 20px 0 50px;
+}
+
+.checkout-form {
+  margin: 20px 0;
+}
+
+.checkout-form-item {
+  margin: 5px 0 20px;
+}
+
+.checkout-form-input {
+  padding: 15px 20px;
+  width: 100%;
+}
+
+.order {
+  padding: 40px;
+}
+
+.order-item,
+.order-total {
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.order-item {
+  border-bottom: 1px solid var(--sub-color);
+}
+
+.order-total-value {
+  font-size: 1.2rem;
+}

@@ -1,0 +1,86 @@
+:root {
+  --sub-color: #aba5a3;
+  --primary-color: #48b0f7;
+  --background-color: #f8f9fa;
+  --dark-background-color: #383838;
+}
+
+.app-sub-color {
+  color: var(--sub-color);
+}
+.app-primary-color {
+  color: var(--primary-color);
+}
+
+.app-background {
+  background-color: var(--background-color);
+}
+
+.app-primary-background {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.app-button,
+.app-dark-background {
+  background-color: var(--dark-background-color);
+  color: #fff;
+  border: none;
+}
+
+.app-button {
+  padding: 5px 25px;
+}
+.app-button.submitting {
+  background-color: var(--background-color);
+  color: #000;
+}
+
+.app-title {
+  margin-bottom: 30px;
+}
+
+.app-input {
+  padding: 20px;
+  border: 1px var(--sub-color) solid;
+}
+
+/* Account */
+.account {
+  background-image: url("./assets/img/banner/banner1.jpg");
+  background-size: 105%;
+  padding: 200px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.account-form {
+  background-color: #fff;
+  min-width: 500px;
+  padding: 60px;
+  border-radius: 10px;
+  box-shadow: 1px 3px 15px #8b8b8b;
+}
+
+.account-form-input {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 0;
+}
+
+.account-button {
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Table */
+table {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+th,
+td {
+  padding: 20px;
+  text-align: center;
+}

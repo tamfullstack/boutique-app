@@ -1,0 +1,31 @@
+/* More Info */
+.more-info {
+  padding: 50px 0;
+}
+
+.more-info-item {
+  display: flex;
+  justify-content: center;
+}
+
+.more-info-item {
+  display: flex;
+  justify-content: center;
+}
+
+/* Subscribe Form */
+.subscribe-form {
+  padding: 50px 0;
+}
+
+.subscribe-form form {
+  display: flex;
+}
+
+.subscribe-form input {
+  width: 70%;
+}
+
+.subscribe-form button {
+  width: 30%;
+}

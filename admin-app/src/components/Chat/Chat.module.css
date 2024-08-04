@@ -1,0 +1,44 @@
+.chat {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  height: 90%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #fff;
+}
+
+.chat-contacts,
+.chat-messages {
+  border: 1px solid #000;
+}
+
+.chat-messages {
+  border-left: none;
+}
+
+.chat-contacts-search {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  border-bottom: 1px solid #000;
+}
+
+.chat-contacts-search input {
+  padding: 5px 10px;
+}
+
+.chat-contacts-list {
+  overflow-y: auto;
+  max-height: 585px;
+}
+
+.chat-contact {
+  padding: 10px 20px;
+  border-bottom: 1px solid #000;
+  cursor: pointer;
+}
+
+.chat-contact i {
+  font-size: 1.5rem;
+  margin-right: 10px;
+}

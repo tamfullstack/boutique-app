@@ -1,0 +1,41 @@
+.product-info {
+  margin: 40px 0;
+}
+
+.product-info-content {
+  padding: 20px 0 20px 20px;
+}
+
+.product-price {
+  margin-top: 20px;
+  font-size: 1.5rem;
+}
+
+.product-quantity {
+  display: flex;
+  margin-top: 20px;
+}
+
+.product-quantity-input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 40%;
+  min-width: 200px;
+  padding: 10px 20px !important;
+}
+
+.product-quantity-buttons {
+  width: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-quantity-button {
+  cursor: pointer;
+}
+
+.product-description h5 {
+  margin: 20px 0;
+}

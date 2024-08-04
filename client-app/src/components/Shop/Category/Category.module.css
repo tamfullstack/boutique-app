@@ -1,0 +1,8 @@
+.category {
+  padding: 10px 30px;
+  cursor: pointer;
+}
+
+.category:hover {
+  text-decoration: underline;
+}
