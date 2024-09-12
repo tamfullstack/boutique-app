@@ -1,0 +1,28 @@
+.product-form {
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.product-form-item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.product-form-item input,
+.product-form-item textarea {
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.product-form-item textarea {
+  height: 100px;
+}
+
+.product-form-item textarea.large {
+  height: 200px;
+}
+
+.product-form-item input.image {
+  padding: 0;
+}

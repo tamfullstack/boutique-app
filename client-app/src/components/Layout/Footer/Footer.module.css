@@ -1,0 +1,18 @@
+.links {
+  padding: 0 20px;
+}
+
+.links-list {
+  list-style-type: none;
+  margin: 20px 0 0 0;
+  padding: 0;
+}
+
+.link-item {
+  margin-bottom: 5px;
+}
+
+.link {
+  text-decoration: none;
+  color: #fff;
+}

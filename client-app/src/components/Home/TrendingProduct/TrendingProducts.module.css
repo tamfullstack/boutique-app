@@ -1,0 +1,33 @@
+.trending-products {
+  padding: 40px;
+}
+
+.trending-product-image {
+  height: 300px;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.trending-product-image .hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+.trending-product-image:hover .hover {
+  display: block;
+}
+
+.trending-product-content {
+  margin-top: 20px;
+}
+
+.trending-product-name {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.trending-product-price {
+  margin: 0;
+}

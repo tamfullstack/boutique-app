@@ -1,0 +1,5 @@
+.layout-content {
+  min-height: 100vh;
+  background-color: var(--primary-color);
+  padding: 20px;
+}

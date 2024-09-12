@@ -1,0 +1,21 @@
+.info-board {
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.info-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #000;
+}
+
+.info-item-content p {
+  margin-bottom: 0;
+}
+
+.info-item i {
+  font-size: 1.2rem;
+}

@@ -1,0 +1,33 @@
+.products-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.results-control {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin: 50px 0;
+}
+
+.results-buttons {
+  display: flex;
+}
+
+.results-button {
+  background-color: #fff;
+  padding: 5px 10px;
+  margin: 0 5px;
+}
+
+.results-page-number {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+}
+
+.results-detail {
+  margin-top: 10px;
+}

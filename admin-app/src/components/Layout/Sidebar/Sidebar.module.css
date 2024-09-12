@@ -1,0 +1,25 @@
+.sidebar-title {
+  text-align: center;
+  margin: 20px 0 40px;
+}
+
+.sidebar-lists,
+.sidebar-list {
+  list-style-type: none;
+  padding: 0;
+  margin-left: 10px;
+}
+
+.sidebar-lists-item {
+  margin-bottom: 20px;
+}
+
+.sidebar-item,
+.sidebar-item a {
+  color: gray;
+  text-decoration: none;
+}
+
+.sidebar-item .logout-btn {
+  cursor: pointer;
+}
